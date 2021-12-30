@@ -1,0 +1,26 @@
+{
+  "name": "sextaentrga",
+  "version": "1.0.0",
+  "description": "sexta y última  entrega de los coder proyectos dic-2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/sexta.scss css/sextacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IssaiAguilar/sextaEntrga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IssaiAguilar/sextaEntrga/issues"
+  },
+  "homepage": "https://github.com/IssaiAguilar/sextaEntrga#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
